@@ -1,0 +1,22 @@
+[
+    {
+        "name": "300 - 700",
+        "pattern": "(rs|RS|Rs|INR|MRP|inr|mrp)*.*[0-9]{3}\\s*(-|to)\\s*(rs|RS|Rs|INR|MRP|inr|mrp)*.*[0-9]{3}"
+    },
+    {
+        "name": "< 300, > 700",
+        "pattern": "(>|<|greater|less)\\s*(than)*\\s*(rs|RS|Rs|INR|MRP|inr|mrp)*.*[0-9]{3}"
+    },
+    {
+        "name": "email_id",
+        "pattern": "^([a-zA-Z0-9-._]+)@([a-zA-Z0-9-.]+).([a-zA-Z]{2,10})$"
+    },
+    {
+        "name": "greet",
+        "pattern": "(hey|hi|hello|hola)[^\\s]*"
+    },
+    {
+        "name": "location",
+        "pattern": "[a-zA-ZA-z]+[nagar|pur|bad|ore|garh|dwar|ganj|bagh]$"
+    }
+]
